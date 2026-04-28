@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rizvi Khan — Data Scientist & Machine Learning Engineer with 5+ years building models from concept to deployment.">
+<title>Rizvi Khan | Data Scientist & Machine Learning Engineer</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div id="cursor">
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+</div>
+
+<!-- Particle Canvas -->
+<canvas id="particles-canvas"></canvas>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">~~Rizvi Khan~~</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#extra-skills">Creative</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="icon-moon">
+        <img src="img/lightoff.webp" alt="darkmode" width="30px">
+    </span>
+    <span class="icon-sun">
+        <img src="img/lighton.webp" alt="lightmode" width="30px">
+    </span>
+    </button>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile nav overlay -->
+<div class="nav-mobile-overlay" id="mobileNav">
+  <button class="overlay-close" id="overlayClose" aria-label="Close menu">
+    <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="#about" class="mobile-nav-link">About</a>
+  <a href="#services" class="mobile-nav-link">Services</a>
+  <a href="#skills" class="mobile-nav-link">Skills</a>
+  <a href="#projects" class="mobile-nav-link">Projects</a>
+  <a href="#extra-skills" class="mobile-nav-link">Creative</a>
+  <a href="#contact" class="mobile-nav-link">Contact</a>
+  <div class="overlay-social">
+    <a href="https://github.com/rizvi-khan05400" target="_blank">GitHub</a>
+    <a href="mailto:rizvikhan05400@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/rizvi-khan" target="_blank">Linkedin</a>
+    <a href="assets/Rizvi Khan Updated CV.pdf" download>CV</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-line"></div>
+  <div class="hero-orb"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Available for freelance</div>
+    <h1 class="hero-headline">
+      Hey, I'm<br><em>MD. Rizvi Khan</em>
+    </h1>
+    <p class="hero-sub">Data Scientist & Machine Learning Engineer crafting models that turn raw data into real decisions — from concept through deployment.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary"><span>View Projects</span></a>
+      <a href="assets/Rizvi Khan Updated CV.pdf" class="btn-ghost" download>Download CV</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label reveal">About me</div>
+  <h2 class="section-headline reveal reveal-delay-1">Creating <em>Predictive</em> Intelligence</h2>
+  <div class="about-grid">
+    <div class="about-text reveal reveal-delay-2">
+      <p>I love creating <strong>efficient, intelligent models</strong> for my clients — from concept through deployment. I've worked across industries to turn messy data into actionable insight.</p>
+      <p>I enjoy collaborating closely with clients to ensure their goals are met with <strong>precision and clarity</strong>. My background spans data analysis, model development, and end-to-end deployment pipelines.</p>
+      <p>Whether it's a <strong>customer segmentation engine</strong>, a <strong>predictive model</strong>, or a full analytics dashboard — I build systems that actually work in production.</p>
+      <a href="#contact" class="btn-ghost" style="display:inline-block; margin-top:1rem;">Let's work together</a>
+    </div>
+    <div class="reveal reveal-delay-3">
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-year">2026 – Present</div>
+          <div class="timeline-role">Junior IT Executive</div>
+          <div class="timeline-company">SLA International</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">Half of 2025</div>
+          <div class="timeline-role">Telesales Executive</div>
+          <div class="timeline-company">Synargy Business Solution</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2024 – 2025</div>
+          <div class="timeline-role">Computer & Data Entry Operator</div>
+          <div class="timeline-company">Intelligent Image Management Limited (IIML)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-inner">
+    <div class="section-label reveal">What I do</div>
+    <h2 class="section-headline reveal reveal-delay-1">Ways I Support Your <em>Business</em> Growth</h2>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-num">01</div>
+        <div class="service-title">Data Analysis</div>
+        <div class="service-desc">Build strong foundations through thorough data exploration, cleaning, and visualization. I uncover trends, patterns, and insights that support smarter decisions and sustainable business growth.</div>
+        <div class="service-arrow">Explore →</div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-num">02</div>
+        <div class="service-title">Model Development</div>
+        <div class="service-desc">Design and develop machine learning models tailored to your goals. I focus on building clean, efficient, and reliable code using proven techniques for accurate, maintainable solutions.</div>
+        <div class="service-arrow">Explore →</div>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-num">03</div>
+        <div class="service-title">Deployment</div>
+        <div class="service-desc">Deploy ML models and data solutions into production using best practices. I ensure smooth integration, scalability, and performance while optimizing for cost and ease of use.</div>
+        <div class="service-arrow">Explore →</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label reveal">Expertise</div>
+  <h2 class="section-headline reveal reveal-delay-1">Tools I Work With <em>Every Day</em></h2>
+  <div class="skills-layout">
+    <div class="skill-bars reveal reveal-delay-2">
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">Python</span><span class="skill-bar-pct">95%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">Data Analysis</span><span class="skill-bar-pct">92%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">Machine Learning</span><span class="skill-bar-pct">88%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">SQL</span><span class="skill-bar-pct">85%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">Data Visualization</span><span class="skill-bar-pct">87%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="87"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">Model Deployment</span><span class="skill-bar-pct">80%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">Git & GitHub</span><span class="skill-bar-pct">85%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">CupCut</span><span class="skill-bar-pct">80%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">Adobe Premiere Pro</span><span class="skill-bar-pct">60%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"><div class="skill-bar-dot"></div></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-head"><span class="skill-bar-name">Canva</span><span class="skill-bar-pct">70%</span></div>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"><div class="skill-bar-dot"></div></div></div>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-3">
+      <div class="tools-grid">
+        <div class="tool-chip">
+          <img src="img/python.webp" alt="python" width="30px">
+          <div class="tool-chip-name">Python</div>
+        </div>
+        <div class="tool-chip">
+          <img src="img/mysql.webp" alt="mysql" width="30px">
+          <div class="tool-chip-name">SQL</div>
+        </div>
+        <div class="tool-chip">
+          <img src="img/powerbi.webp" alt="powerbi" width="30px">
+          <div class="tool-chip-name">Power BI</div>
+        </div>
+        <div class="tool-chip">
+          <img src="img/jupyterlab.webp" alt="jupyter" width="30px">
+          <div class="tool-chip-name">JupyterLab</div>
+        </div>
+        <div class="tool-chip">
+          <img src="img/excel.webp" alt="excel" width="30px">
+          <div class="tool-chip-name">Excel</div>
+        </div>
+        <div class="tool-chip">
+          <img src="img/github.webp" alt="github" width="30px">
+          <div class="tool-chip-name">Git & GitHub</div>
+        </div>
+        <div class="tool-chip">
+          <img src="img/capcut.webp" alt="capcut" width="30px">
+          <div class="tool-chip-name">CapCut</div>
+        </div>
+        <div class="tool-chip">
+          <img src="img/adobepremierepro.webp" alt="adobepremierepro" width="30px">
+          <div class="tool-chip-name">Adobe Premiere Pro</div>
+        </div>
+        <div class="tool-chip">
+          <img src="img/canva.webp" alt="canva" width="30px">
+          <div class="tool-chip-name">Canva</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="projects-inner">
+    <div class="section-label reveal">Work</div>
+    <h2 class="section-headline reveal reveal-delay-1">Selected <em>Projects</em></h2>
+    <div class="projects-grid">
+      <a href="https://github.com/rizvi-khan05400/Machine-Learning/blob/main/COVID-19/covid19.ipynb" target="_blank" class="project-card reveal reveal-delay-1">
+        <div class="project-tag">Machine Learning · Epidemiology</div>
+        <div class="project-title">COVID-19 Analysis & Prediction</div>
+        <div class="project-desc">Predictive modeling on COVID-19 spread data — explored transmission patterns and built forecasting models to support data-driven public health decisions.</div>
+        <div class="project-link">View on GitHub</div>
+        <div class="project-num">01</div>
+      </a>
+      <a href="https://github.com/rizvi-khan05400/Machine-Learning/blob/main/CustomerSegmentation/customer_segment.ipynb" target="_blank" class="project-card reveal reveal-delay-2">
+        <div class="project-tag">Machine Learning · Clustering</div>
+        <div class="project-title">Customer Segmentation Engine</div>
+        <div class="project-desc">Applied clustering algorithms (K-Means, DBSCAN) to segment customers by behavior and demographics — enabling targeted marketing strategies.</div>
+        <div class="project-link">View on GitHub</div>
+        <div class="project-num">02</div>
+      </a>
+      <a href="https://github.com/rizvi-khan05400/Data-Analysis/blob/main/airbnb.ipynb" target="_blank" class="project-card reveal reveal-delay-3">
+        <div class="project-tag">Data Analysis · Real Estate</div>
+        <div class="project-title">Airbnb Market Analysis</div>
+        <div class="project-desc">Comprehensive EDA on Airbnb listings data — uncovered pricing trends, occupancy patterns, and location-based insights for hosts and investors.</div>
+        <div class="project-link">View on GitHub</div>
+        <div class="project-num">03</div>
+      </a>
+      <a href="https://github.com/rizvi-khan05400/Data-Analysis/blob/main/Netflix.ipynb" target="_blank" class="project-card reveal reveal-delay-1">
+        <div class="project-tag">Data Analysis · Entertainment</div>
+        <div class="project-title">Netflix Content Analysis</div>
+        <div class="project-desc">Analyzed Netflix's content library to identify genre distribution, release trends, and regional content strategies using Python and visualization libraries.</div>
+        <div class="project-link">View on GitHub</div>
+        <div class="project-num">04</div>
+      </a>
+      <a href="https://github.com/rizvi-khan05400/Data-Analysis/blob/main/E-Com.ipynb" target="_blank" class="project-card reveal reveal-delay-2">
+        <div class="project-tag">Data Analysis · E-Commerce</div>
+        <div class="project-title">E-Commerce Sales Analysis</div>
+        <div class="project-desc">Deep-dive into e-commerce transaction data — identified top-performing products, seasonal patterns, and customer purchase behavior to boost revenue strategy.</div>
+        <div class="project-link">View on GitHub</div>
+        <div class="project-num">05</div>
+      </a>
+      <a href="https://github.com/rizvi-khan05400/Data-Analysis/blob/main/Student-Scors.ipynb" target="_blank" class="project-card reveal reveal-delay-3">
+        <div class="project-tag">Data Analysis · Education</div>
+        <div class="project-title">Student Performance Analysis</div>
+        <div class="project-desc">Explored how socioeconomic factors, study habits, and demographics influence academic outcomes — providing actionable insights for educators.</div>
+        <div class="project-link">View on GitHub</div>
+        <div class="project-num">06</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- EXTRA SKILLS -->
+<section id="extra-skills">
+  <div class="section-label reveal">Beyond data</div>
+  <h2 class="section-headline reveal reveal-delay-1">Creative <em>Skills</em> & Visual <em>Production</em></h2>
+  <div class="extra-skills-grid">
+
+    <!-- Video Editing -->
+    <div class="extra-skill-panel reveal reveal-delay-1">
+      <div class="extra-skill-eyebrow">Creative · Video</div>
+      <div class="extra-skill-title">Video <em>Editing</em></div>
+      <div class="extra-skill-desc">Crafting polished video content — from raw footage to final cut. I work with professional and consumer tools to produce engaging, well-paced edits for social media, presentations, and promotional content.</div>
+      <div class="extra-tool-list">
+        <div class="extra-tool-row">
+          <img src="img/adobepremierepro.webp" alt="adobepremierepro" width="30px">
+          <div class="extra-tool-name">Adobe Premiere Pro</div>
+          <div class="extra-tool-tag">Professional</div>
+        </div>
+        <div class="extra-tool-row">
+          <img src="img/capcut.webp" alt="capcut" width="30px">
+          <div class="extra-tool-name">CapCut</div>
+          <div class="extra-tool-tag">Social & Short-form</div>
+        </div>
+      </div>
+      <div class="extra-bg-num">01</div>
+    </div>
+
+    <!-- Poster / Graphic Design -->
+    <div class="extra-skill-panel reveal reveal-delay-2">
+      <div class="extra-skill-eyebrow">Creative · Design</div>
+      <div class="extra-skill-title">Poster &amp; <em>Graphic</em> Design</div>
+      <div class="extra-skill-desc">Designing visually compelling posters, thumbnails, social graphics, and brand materials. I combine layout, typography, and color theory to create designs that communicate clearly and stand out.</div>
+      <div class="extra-tool-list">
+        <div class="extra-tool-row">
+          <img src="img/canva.webp" alt="canva" width="30px">
+          <div class="extra-tool-name">Canva</div>
+          <div class="extra-tool-tag">Design & Layouts</div>
+        </div>
+        <div class="extra-tool-row">
+          <img src="img/adobepremierepro.webp" alt="adobepremierepro" width="30px">
+          <div class="extra-tool-name">Adobe Premiere Pro</div>
+          <div class="extra-tool-tag">Motion Graphics</div>
+        </div>
+      </div>
+      <div class="extra-bg-num">02</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="section-label reveal">Get in touch</div>
+    <h2 class="section-headline reveal reveal-delay-1">Let's Build Something<br><em>Great Together</em></h2>
+    <p class="contact-sub reveal reveal-delay-2">Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you as soon as possible.</p>
+    <a href="mailto:rizvikhan05400@gmail.com" class="contact-email reveal reveal-delay-3">rizvikhan05400@gmail.com</a> |
+    <a href="https://wa.me/8801621981547" class="contact-email reveal reveal-delay-3">+880 1621-981547</a>
+    <form id="contactForm" name="submit-to-google-sheet" class="contact-form reveal reveal-delay-3" onsubmit="handleSubmit(event)">
+      <div class="contact-form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+        <div class="form-field">
+            <input type="text" class="form-control-input" name="Name" id="cname" placeholder="Your Name" required>
+            <label class="label-control" for="cname">Name</label>
+        </div>
+        <div class="form-field">
+            <input type="email" class="form-control-input" name="Email" id="cemail" placeholder="your@gmail.com" required>
+            <label class="label-control" for="cemail">Gmail</label>
+        </div>
+      </div>
+      <div class="form-field">
+          <textarea rows="5" class="form-control-textarea" name="Message" id="cmessage" required></textarea>
+          <label class="label-control" for="cmessage">Project details</label>
+      </div>
+      <div class="form-field">
+        <button type="submit" class="form-submit form-control-submit-button""><span>Send Message →</span></button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">© 2025 Rizvi Khan. All rights reserved.</div>
+  <div class="footer-links">
+    <a href="https://github.com/rizvi-khan05400" target="_blank">GitHub</a>
+    <a href="mailto:rizvikhan05400@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/rizvi-khan" target="_blank">Linkedin</a>
+    <a href="assets/Rizvi Khan Updated CV.pdf" download>CV</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
